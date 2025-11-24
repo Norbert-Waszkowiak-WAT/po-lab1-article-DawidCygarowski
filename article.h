@@ -1,6 +1,6 @@
 #ifndef ARTICLE
-#define ARTCILE
-#include <string>
+#define ARTICLE
+#include <iostream>
 
 using namespace std;
 
