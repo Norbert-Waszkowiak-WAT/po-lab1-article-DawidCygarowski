@@ -1,6 +1,7 @@
 #ifndef ARTICLE
 #define ARTICLE
 #include <iostream>
+#include "author.h"
 
 using namespace std;
 
@@ -18,7 +19,7 @@ class Article {
     void displayInfo();
     string getTitle();
     Author getAuthor();
-    int getPubliucationYear();
+    int getPublicationYear();
     string getJournal();
 
 };
