@@ -1,5 +1,3 @@
-
-
 #include "article.h"
 
 #include <iostream>
