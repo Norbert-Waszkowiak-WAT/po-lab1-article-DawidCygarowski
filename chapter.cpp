@@ -10,8 +10,7 @@ Chapter::Chapter(const Chapter &other)
     : title(other.title), author(other.author), chapterNumber(other.chapterNumber) {}
  
 void Chapter::displayInfo() const {
-    std::cout << chapterNumber << ". " << title
-              << " (" << author.toString() << ")";
+    std::cout << chapterNumber << ". " << title << " (" << author.toString() << ")";
 }
  
 std::string Chapter::getTitle() const {

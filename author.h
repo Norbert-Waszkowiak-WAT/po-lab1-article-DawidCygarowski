@@ -11,9 +11,10 @@ class Author {
     string surname;
     
     public: 
+    Author();
     Author(string n, string s);
     void print();
-    string toString();
+    string toString() const;
     string getName();
     string getSurname();
 

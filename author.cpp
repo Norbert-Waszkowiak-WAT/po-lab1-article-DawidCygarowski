@@ -9,7 +9,7 @@ string Author::getName() {
 string Author::getSurname(){
 return surname;
 }
-string Author::toString(){
+string Author::toString() const {
     return name + " " + surname;
 }
 void Author::print(){
@@ -17,5 +17,9 @@ void Author::print(){
 
 };
 Author::Author(string n, string s):name(n), surname(s){
+
+}
+
+Author::Author():name(""), surname(""){
 
 }

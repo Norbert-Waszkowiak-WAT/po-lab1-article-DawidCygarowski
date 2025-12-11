@@ -1,7 +1,7 @@
 #include "book.h"
 #include <iostream>
  
-Book::Book() : title(""), author(Author()), publicationYear(0), chapters() {}
+Book::Book() : title(""), author(Author("","")), publicationYear(0), chapters() {}
  
 Book::Book(std::string bookTitle, Author bookAuthor, int year, std::vector<Chapter> bookChapters)
     : title(bookTitle), author(bookAuthor), publicationYear(year), chapters(bookChapters) {}
